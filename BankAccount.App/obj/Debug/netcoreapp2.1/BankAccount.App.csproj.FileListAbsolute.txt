@@ -1,0 +1,14 @@
+D:\Projects\1 - Github\BankAccount\BankAccount.App\bin\Debug\netcoreapp2.1\BankAccount.App.deps.json
+D:\Projects\1 - Github\BankAccount\BankAccount.App\bin\Debug\netcoreapp2.1\BankAccount.App.runtimeconfig.json
+D:\Projects\1 - Github\BankAccount\BankAccount.App\bin\Debug\netcoreapp2.1\BankAccount.App.runtimeconfig.dev.json
+D:\Projects\1 - Github\BankAccount\BankAccount.App\bin\Debug\netcoreapp2.1\BankAccount.App.dll
+D:\Projects\1 - Github\BankAccount\BankAccount.App\bin\Debug\netcoreapp2.1\BankAccount.App.pdb
+D:\Projects\1 - Github\BankAccount\BankAccount.App\bin\Debug\netcoreapp2.1\BankAccount.Core.dll
+D:\Projects\1 - Github\BankAccount\BankAccount.App\bin\Debug\netcoreapp2.1\BankAccount.Core.pdb
+D:\Projects\1 - Github\BankAccount\BankAccount.App\obj\Debug\netcoreapp2.1\BankAccount.App.csprojAssemblyReference.cache
+D:\Projects\1 - Github\BankAccount\BankAccount.App\obj\Debug\netcoreapp2.1\BankAccount.App.csproj.CoreCompileInputs.cache
+D:\Projects\1 - Github\BankAccount\BankAccount.App\obj\Debug\netcoreapp2.1\BankAccount.App.AssemblyInfoInputs.cache
+D:\Projects\1 - Github\BankAccount\BankAccount.App\obj\Debug\netcoreapp2.1\BankAccount.App.AssemblyInfo.cs
+D:\Projects\1 - Github\BankAccount\BankAccount.App\obj\Debug\netcoreapp2.1\BankAccount.App.csproj.CopyComplete
+D:\Projects\1 - Github\BankAccount\BankAccount.App\obj\Debug\netcoreapp2.1\BankAccount.App.dll
+D:\Projects\1 - Github\BankAccount\BankAccount.App\obj\Debug\netcoreapp2.1\BankAccount.App.pdb
