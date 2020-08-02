@@ -1,5 +1,6 @@
 ﻿using System;
 using BankAccount.Core.Entities;
+using BankAccount.Core.Enums;
 
 namespace BankAccount.App
 {
@@ -15,16 +16,16 @@ namespace BankAccount.App
             var amount = 0M;
             var account = new Account(() => { });
 
-            while (option != 3)
+            while (option != Option.Exit)
             {
                 switch (option)
                 {
-                    case 1:
-                        amount = DepositScreen(name);
+                    case Option.Deposit:
+                        amount = OperationScreen(name, option);
                         account.Deposit(amount);
                         break;
-                    case 2:
-                        amount = WithdrawScreen(name);
+                    case Option.Withdraw:
+                        amount = OperationScreen(name, option);
                         account.Withdraw(amount);
                         break;
                     default:
@@ -40,35 +41,27 @@ namespace BankAccount.App
             Console.ReadKey();
         }
 
-        static int StartScreen(string name, decimal currentBalance = 0)
+        static Option StartScreen(string name, decimal currentBalance = 0)
         {
             Console.Clear();
             Console.WriteLine($"\n====>\t\t{name}'s account.\t\t<====");
             Console.WriteLine(("").PadRight(53, '-'));
             Console.WriteLine($"==> Current balance:.........................[{currentBalance:C}]");
-            Console.WriteLine($"==> Deposit..................................(1)");
-            Console.WriteLine($"==> Withdraw.................................(2)");
-            Console.WriteLine($"==> Exit.....................................(3)");
+            Console.WriteLine($"==> Deposit..................................({(int)Option.Deposit})");
+            Console.WriteLine($"==> Withdraw.................................({(int)Option.Withdraw})");
+            Console.WriteLine($"==> Exit.....................................({(int)Option.Exit})");
 
             Console.Write("\n==> Choose an option: ");
-            return int.Parse(Console.ReadLine());
+
+            return (Option)(int.TryParse(Console.ReadLine(), out var option) ? option : 999);
         }
 
-        private static decimal DepositScreen(string name)
+        private static decimal OperationScreen(string name, Option option)
         {
             Console.Clear();
-            Console.WriteLine($"\n====>\t Deposit in {name}'s account.\t<====");
+            Console.WriteLine($"\n====>\t {option.ToString()} in {name}'s account.\t<====");
             Console.WriteLine(("").PadRight(53, '-'));
-            Console.Write($"==> Ammount: R$");
-            return decimal.Parse(Console.ReadLine());
-        }
-
-        private static decimal WithdrawScreen(string name)
-        {
-            Console.Clear();
-            Console.WriteLine($"\n====>\t Withdraw in {name}'s account.\t<====");
-            Console.WriteLine(("").PadRight(53, '-'));
-            Console.Write($"==> Ammount: R$");
+            Console.Write($"==> Ammount: R$ ");
             return decimal.Parse(Console.ReadLine());
         }
     }

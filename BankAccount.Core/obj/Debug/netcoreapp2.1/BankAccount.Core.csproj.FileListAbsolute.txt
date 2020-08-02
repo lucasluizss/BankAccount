@@ -1,9 +1,0 @@
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\bin\Debug\netcoreapp2.1\BankAccount.Core.deps.json
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\bin\Debug\netcoreapp2.1\BankAccount.Core.dll
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\bin\Debug\netcoreapp2.1\BankAccount.Core.pdb
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\obj\Debug\netcoreapp2.1\BankAccount.Core.csprojAssemblyReference.cache
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\obj\Debug\netcoreapp2.1\BankAccount.Core.csproj.CoreCompileInputs.cache
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\obj\Debug\netcoreapp2.1\BankAccount.Core.AssemblyInfoInputs.cache
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\obj\Debug\netcoreapp2.1\BankAccount.Core.AssemblyInfo.cs
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\obj\Debug\netcoreapp2.1\BankAccount.Core.dll
-D:\Projects\1 - Github\BankAccount\BankAccount.Core\obj\Debug\netcoreapp2.1\BankAccount.Core.pdb
